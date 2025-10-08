@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "out",
+  "functions": {
+    "api/proxy.js": {
+      "includeFiles": "api/bin/**"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vercel-rust-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build:cli": "bash scripts/build-cli.sh",
+    "build:cli:docker": "bash scripts/build-cli-docker.sh",
+    "build:deploy": "bash scripts/build-and-deploy.sh",
+    "build:deploy:verbose": "bash scripts/build-and-deploy.sh --verbose"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.14"
+  }
+}

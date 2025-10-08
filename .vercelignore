@@ -1,0 +1,15 @@
+# Ignore large local build artifacts; not needed in deployment bundle
+# The binary is included explicitly via vercel.json includeFiles
+
+# Rust
+target/
+rust-cli/target/
+**/*.rlib
+
+# Node / Vercel
+node_modules/
+.vercel/
+
+# OS
+.DS_Store
+

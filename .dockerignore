@@ -1,0 +1,7 @@
+# Reduce build context
+node_modules/
+.vercel/
+api/bin/
+**/target/
+.git/
+.DS_Store
